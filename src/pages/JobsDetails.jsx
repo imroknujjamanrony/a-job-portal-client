@@ -21,7 +21,7 @@ const JobsDetails = () => {
   } = job;
 
   return (
-    <div className="border rounded-lg shadow-lg p-5 max-w-md bg-white">
+    <div className="border rounded-lg shadow-lg p-5 mx-auto max-w-md bg-white">
       {/* Company logo and name */}
       <div className="flex items-center mb-4">
         <img
@@ -92,7 +92,7 @@ const JobsDetails = () => {
             {hr_name}
           </a>
         </p>
-        <Link to={`/jobs/${job._id}`}>
+        <Link to={`/jobApply/${job._id}`}>
           <button className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
             Apply Now
           </button>
