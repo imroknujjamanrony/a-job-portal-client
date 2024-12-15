@@ -2,6 +2,7 @@ import Lottie from "lottie-react";
 import AnimationReg from "../../src/assets/register.json";
 import { useContext } from "react";
 import AuthContext from "../context/AuthContext";
+import SocialLogin from "../shared/SocialLogin";
 
 const Register = () => {
   const { createUser, user } = useContext(AuthContext); // Ensure AuthContext is provided
@@ -73,6 +74,10 @@ const Register = () => {
               <button className="btn btn-primary">Register</button>
             </div>
           </form>
+          <div className="divider divider-neutral">Neutral</div>
+          <div>
+            <SocialLogin></SocialLogin>
+          </div>
         </div>
       </div>
     </div>
