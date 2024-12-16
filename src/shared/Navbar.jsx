@@ -21,11 +21,14 @@ const Navbar = () => {
         <NavLink to="/home">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/findjob">Find Job</NavLink>
+        <NavLink to="/myApplications">My Applications</NavLink>
       </li>
       <li>
-        <NavLink to="/recruiters">Recruiters</NavLink>
+        <NavLink to="/addJob">Add Job</NavLink>
       </li>
+      {/* <li>
+        <NavLink to="/recruiters">Recruiters</NavLink>
+      </li> */}
       <li>
         <NavLink to="/blog">Blog </NavLink>
       </li>
